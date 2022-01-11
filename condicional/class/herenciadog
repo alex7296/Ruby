@@ -1,0 +1,13 @@
+class Animal
+def respira
+   puts "Inhalar y exhalar"
+end
+end
+
+class Perro<Animal
+def ladrar
+    puts "Guau"
+end
+end
+
+Perro.new.respira
