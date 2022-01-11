@@ -1,0 +1,16 @@
+# Definimos la clase Persona
+class Persona
+# Constructor de la clase
+def initialize(nombre,edad)
+# atributos
+@nombre = nombre
+@edad = edad
+end
+# método saludar
+def saludar
+puts "Hola! mi nombre es #{@nombre}"
+end
+end
+
+andres = Persona.new("Andrés",20)
+andres.saludar
