@@ -1,0 +1,15 @@
+class Humano
+     def identidad
+         print "soy una persona.\n"
+     end
+
+     def tarifa_tren(edad)
+        if edad < 12
+           print "tarifa reducida.\n"
+        else
+           print "tarifa normal. \n"
+        end
+     end
+end
+
+ Humano.new.identidad
