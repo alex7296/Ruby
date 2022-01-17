@@ -1,0 +1,5 @@
+#  dibuja un triangulo in Ruby
+puts "      /|"
+puts "    /  |"
+puts "  /    |"
+puts "/______|"
