@@ -1,0 +1,8 @@
+# Conversión de fahrenheit a celsius, dividida en dos pasos
+def f_to_c(f)
+scale (f - 32.0) # Referencia adelantada, pero es correcto
+end
+def scale(x)
+x * 5.0 / 9.0
+end
+printf "%.1f es una temperatura agradable.\n",f_to_c( 72.3 )
