@@ -1,5 +1,5 @@
 def sayhi (name,edad)
-    puts ("hello " + name+"edad es: " + edad)
+    puts ("hello " + name+"edad es: " + edad.to_s)
 end
 
-sayhi("Andres","49")
+sayhi("Andres",49)
