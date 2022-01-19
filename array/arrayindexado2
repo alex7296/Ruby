@@ -1,0 +1,6 @@
+states={
+    "pensilvania"=>"PA",
+    "new york"=>"NY",
+    "oregon"=>"OR"
+}
+puts states["oregon"]
