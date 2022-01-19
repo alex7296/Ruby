@@ -1,0 +1,5 @@
+def sayhi (name)
+    puts ("hello " + name)
+end
+
+sayhi("Andres")
