@@ -1,0 +1,5 @@
+def sayhi
+    puts "hello user"
+end
+
+sayhi
