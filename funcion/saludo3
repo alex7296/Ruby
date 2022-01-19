@@ -1,0 +1,5 @@
+def sayhi (name,edad)
+    puts ("hello " + name+"edad es: " + edad)
+end
+
+sayhi("Andres","49")
