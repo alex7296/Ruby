@@ -1,0 +1,12 @@
+class ConstClass
+    C1=101
+    C2=102
+    C3=103
+      def show
+         print C1," ",C2, " ",C3,"\n"
+       end
+ end
+
+ConstClass::C1
+
+ConstClass.new.show
