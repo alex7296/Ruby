@@ -1,0 +1,2 @@
+Hodge_podge=["January",1,:year, [2006.01,01]]
+Hodge_podge.each {|e| print e.class, " "}
