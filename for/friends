@@ -1,0 +1,5 @@
+friends=["kevin","karen","angela","julio","maria"]
+
+for element in friends
+    puts element
+end 
