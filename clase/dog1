@@ -1,0 +1,10 @@
+class Dog 
+   attr :bark, true
+end
+
+Dog.instance_methods-Object.instance_methods
+
+Dog=Dog.new
+
+Dog.bark="woof!"
+puts Dog.bark
