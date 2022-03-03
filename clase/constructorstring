@@ -1,0 +1,27 @@
+class Repeat
+    @@total=0
+    def initialize(string, times)
+        @string=string
+        @times=times
+     end
+     def repeat
+        @@total+=@times
+        return @string*@times
+      end
+      def total 
+        puts ("total times, so fat:" + @@total.to_s)
+      end
+end
+data=Repeat.new("ack",8)
+ditto=Repeat.new("again",5)
+ditty=Repeat.new("rise.lather.Repeat.",2)
+
+
+puts data.repeat
+puts data.total
+
+puts ditto.repeat
+puts ditto.total
+
+puts ditty.repeat
+puts ditty.total 
