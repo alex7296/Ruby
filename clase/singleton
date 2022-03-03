@@ -1,0 +1,8 @@
+class Singleton 
+end
+
+s=Singleton.new
+def s.handle
+      puts "I’am a singleton method!"
+end
+s.handle
