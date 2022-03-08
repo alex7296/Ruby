@@ -1,0 +1,27 @@
+class Chef
+        def make_chicken
+            puts "the chef makes chicken"
+        end
+        def make_salad
+            puts "the chef makes salad"
+        end
+        def make_special_dish
+            puts "the chef makes bbq ribs"
+        end
+
+class ItalianChef < Chef
+    def make_especial_dish
+        puts "the chef makes eggplant parm"
+    end
+    def make_pasta
+        print "the chef makes pasta"
+     end
+end
+
+chef=Chef.new()
+chef.make_special_dish
+
+
+italian_chef=ItalianChef.new()
+italian_chef.make_pasta
+end
