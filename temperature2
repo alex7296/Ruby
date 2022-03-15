@@ -1,0 +1,4 @@
+print "Please enter the temperature: "
+temperature = gets
+
+puts "The temperature is #{temperature}."
