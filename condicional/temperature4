@@ -1,0 +1,2 @@
+temperature = 76
+puts “Picnic time!” unless temperature < 65 || temperature > 85
