@@ -1,0 +1,6 @@
+temperature = 76
+unless temperature < 65 || temperature > 85
+   puts "Picnic time!"
+else
+   puts "Sorry, no picnic today."
+end
