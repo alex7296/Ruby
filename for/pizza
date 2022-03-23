@@ -1,0 +1,7 @@
+for value in 1..10
+  puts "This is iteration " + value.to_s
+end
+print "Your pizza comes with "
+for item in ["pepperoni", "sausage", "olives"]
+    print item + " "
+end
