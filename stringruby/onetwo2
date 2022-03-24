@@ -1,0 +1,8 @@
+class OneTwo
+def to_str
+"onetwo"
+end
+end
+ot = OneTwo.new
+puts("count: " + ot)
+File.open(ot) rescue puts $!.message
