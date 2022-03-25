@@ -1,0 +1,6 @@
+name = 'Charlie Brown'
+puts <<QUIZ
+Student: #{name}
+1.\tQuestion: What is 4+5?
+\tAnswer: The sum of 4 and 5 is #{4+5}
+QUIZ
