@@ -1,0 +1,5 @@
+sum = 0
+4.step(12, 2) do |even_value|
+    sum += even_value
+end
+puts “The answer is “ + sum.to_s
