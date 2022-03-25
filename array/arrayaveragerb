@@ -1,0 +1,7 @@
+grades = [88, 99, 73, 56, 87, 64]
+sum = 0
+0.upto(grades.length - 1) do |loop_index|
+    sum += grades[loop_index]
+end
+average = sum / grades.length
+puts average
