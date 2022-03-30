@@ -1,0 +1,4 @@
+def greeting(message)
+   puts message
+end
+greeting("Hello from Ruby")
