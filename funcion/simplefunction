@@ -1,0 +1,5 @@
+def simpleFunction
+   yield
+   yield
+end
+simpleFunction { puts "Hello!" }
