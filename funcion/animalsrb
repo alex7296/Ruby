@@ -1,0 +1,5 @@
+def animals
+   yield "Tiger"
+   yield "Giraffe"
+end
+animals { |x| puts "Hello, #{x}" }
