@@ -1,0 +1,10 @@
+class Statistics
+  def self.stat(attribute, value)
+     define_method(attribute) { value }
+  end
+  stat :foo, :bar
+  stat :baz, :quux
+end
+stats = Statistics.new
+p stats.foo #=> :bar
+p stats.baz #=> :quux
