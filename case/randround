@@ -1,0 +1,10 @@
+a = (10*rand).round
+#a = rand(11) would do the same
+case a
+when 0..5
+   puts "#{a}: Low"
+when 6
+   puts "#{a}: Six"
+else
+   puts "#{a}: Cheese toast!"
+end
