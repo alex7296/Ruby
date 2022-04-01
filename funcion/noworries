@@ -1,0 +1,7 @@
+text = “No worries.”
+def greeting()
+   text = “No problems.”
+puts text
+end
+greeting
+puts text
