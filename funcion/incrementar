@@ -1,0 +1,5 @@
+number = 3
+def incrementer(value)
+   return value + 1
+end
+puts number.to_s + " + 1 = " + incrementer(number).to_s
