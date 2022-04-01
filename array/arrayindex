@@ -1,0 +1,8 @@
+array1 = ["hello", "this", "is", "an", "array!"]
+array2 = []
+array2 << "This" # index 0
+array2 << "is" # index 1
+array2 << "also" # index 2
+array2 << "an" # index 3
+array2 << "array!" # index 4
+puts array2[4]
