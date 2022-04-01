@@ -1,0 +1,5 @@
+def greeting()
+   return "No", "worries"
+end
+array = greeting
+puts array.join(" ")
