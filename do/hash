@@ -1,0 +1,5 @@
+hash = { :leia => "Princess from Alderaan", :han => "Rebel without a
+cause", :luke => "Farmboy turned Jedi"}
+hash.each do |key, value|
+     puts value
+end
