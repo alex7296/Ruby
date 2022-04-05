@@ -1,0 +1,8 @@
+r = 1..10 # Create a Range object
+list = r.methods
+p list.length 
+p list[0..3] 
+
+p r.respond_to?("frozen?") 
+p r.respond_to?(:has_key?) 
+p "me".respond_to?("==") 
