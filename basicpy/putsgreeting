@@ -1,0 +1,4 @@
+def greeting()
+yield “Hello”, “there!”
+end
+greeting {|word_one, word_two | puts word_one + “ “ + word_two}
