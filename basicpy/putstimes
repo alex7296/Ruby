@@ -1,0 +1,4 @@
+puts "I will now count to 99..."
+100.times {|number| puts number}
+5.times {puts "Guess what?"}
+puts "I'm done!"
