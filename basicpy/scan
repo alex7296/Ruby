@@ -1,0 +1,2 @@
+thing = "Red fish"
+thing.scan(/./) {|letter| puts letter}
