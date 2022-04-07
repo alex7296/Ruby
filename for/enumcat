@@ -1,0 +1,2 @@
+enum = "cat".enum_for(:each_char)
+p enum.to_a
