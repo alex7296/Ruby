@@ -1,0 +1,3 @@
+result = []
+"cat".each_char.each_with_index {|item, index| result << [item, index] }
+p result
