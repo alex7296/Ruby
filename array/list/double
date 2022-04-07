@@ -1,0 +1,5 @@
+def double(a)
+  2*a
+end
+mObj = method(:double)
+p [ 1, 3, 5, 7 ].collect(&mObj)
