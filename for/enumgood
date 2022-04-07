@@ -1,0 +1,2 @@
+enum_good = (1..10).enum_for(:each_slice, 3)
+p enum_good.to_a
