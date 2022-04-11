@@ -1,0 +1,7 @@
+class Integer
+def more
+return self + 1
+end
+end
+3.more # -> 4
+7.more # -> 8
