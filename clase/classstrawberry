@@ -1,0 +1,16 @@
+class Strawberry
+def Strawberry.color
+return "red"
+end
+def self.size
+return "kinda small"
+end
+class << self
+def shape
+return "strawberry-ish"
+end
+end
+end
+p Strawberry.color # -> "red"
+p Strawberry.size # -> "kinda small"
+p Strawberry.shape # -> "strawberry-ish"
