@@ -1,0 +1,10 @@
+class Animal
+def initialize
+@color = “red”
+end
+def get_color
+return @color
+end
+end
+animal = Animal.new
+puts “The new animal is “ + animal.get_color
