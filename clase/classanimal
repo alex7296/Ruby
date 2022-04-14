@@ -1,0 +1,8 @@
+class Animal
+  attr_reader :color
+  def initialize(color)
+      @color = color
+  end
+end
+animal = Animal.new("brown")
+puts "The new animal is " + animal.color
