@@ -1,0 +1,5 @@
+class Parent
+end
+class Child < Parent
+end
+puts "The superclass of Child is #{Child.superclass}"
