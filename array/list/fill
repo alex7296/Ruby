@@ -1,0 +1,6 @@
+a = [ "a", "b", "c", "d" ]
+p a.fill("x") 
+p a.fill("z", 2, 2) 
+p a.fill("y", 0..1) 
+p a.fill {|i| i*i} 
+p a.fill(3) {|i| i+100}
