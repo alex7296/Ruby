@@ -1,0 +1,3 @@
+r = 0..5
+puts r === 4 # => true
+puts r === 7 # => false
