@@ -1,0 +1,4 @@
+a = [ "q", "r", "s", "t" ]
+p a.first 
+p a.first(1) 
+p a.first(3) 
