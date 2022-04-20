@@ -1,0 +1,18 @@
+class Animal
+def initialize(color)
+@color = color
+end
+def get_color
+return @color
+end
+end
+class Dog < Animal
+def initialize(color)
+super(color)
+end
+def get_color
+return “blue”
+end
+end
+dog = Dog.new(“brown”)
+puts “The new dog is “ + dog.get_color
