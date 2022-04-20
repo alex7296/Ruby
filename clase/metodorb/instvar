@@ -1,0 +1,13 @@
+class A
+@@instvar = 1
+def go
+@@instvar = @@instvar*2
+puts @@instvar
+end
+end
+instance = A.new
+instance.go
+#=> 2
+instance = A.new
+instance.go
+#=> 4 -- variable is shared across instances
