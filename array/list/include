@@ -1,0 +1,3 @@
+a = [ "a", "b", "c" ]
+p a.include?("b") 
+p a.include?("z") 
