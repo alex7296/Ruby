@@ -1,0 +1,16 @@
+module Adder
+def add(operand_one, operand_two)
+return operand_one + operand_two
+end
+end
+module Subtracter
+def subtract(operand_one, operand_two)
+return operand_one - operand_two
+end
+end
+class Calculator
+include Adder
+include Subtracter
+end
+calculator = Calculator.new()
+puts “2 + 3 = “ + calculator.add(2, 3).to_s
