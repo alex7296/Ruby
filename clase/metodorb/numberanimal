@@ -1,0 +1,17 @@
+class Animal
+@@number_animals = 0
+def initialize(color)
+@color = color
+@@number_animals += 1
+end
+def get_color
+return @color
+end
+def get_number_animals
+return @@number_animals
+end
+end
+dog = Animal.new("brown")
+cat = Animal.new("striped")
+squirrel = Animal.new("gray")
+puts "Number of animals is " + squirrel.get_number_animals.to_s
