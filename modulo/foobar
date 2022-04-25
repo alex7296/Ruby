@@ -1,0 +1,11 @@
+module A
+module_function
+def foo
+"This is foo"
+end
+def bar
+"This is bar"
+end
+end
+p A.foo
+p  A.bar
