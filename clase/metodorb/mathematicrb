@@ -1,0 +1,6 @@
+class Mathematics
+def Mathematics.add(operand_one, operand_two)
+return operand_one + operand_two
+end
+end
+puts “1 + 2 = “ + Mathematics.add(1, 2).to_s
