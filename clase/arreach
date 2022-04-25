@@ -1,0 +1,10 @@
+class A
+include Enumerable
+def initialize(arr)
+@arr = arr
+end
+def each
+@arr.each { |e| yield(e) }
+end
+end
+p A.new([1,2,3]).map { |x| x + 1 }
