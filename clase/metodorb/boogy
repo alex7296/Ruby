@@ -1,0 +1,12 @@
+class Boogy
+def initialize
+@dix = 15
+end
+def arbo
+puts "#{@dix} ha\n"
+end
+end
+# initializes an instance of Boogy
+b = Boogy.new
+# prints "15 ha"
+b.arbo
