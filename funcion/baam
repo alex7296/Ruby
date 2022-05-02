@@ -1,0 +1,7 @@
+def try_ret_procnew
+ret = Proc.new { return "Baaam" }
+ret.call
+"This is not reached"
+end
+# prints "Baaam"
+puts try_ret_procnew
