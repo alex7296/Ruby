@@ -1,0 +1,17 @@
+class CompareOnSize
+include Comparable
+attr :str
+def <=>(other)
+str.length <=> other.str.length
+end
+def initialize(str)
+@str = str
+end
+end
+s1 = CompareOnSize.new("Z")
+s2 = CompareOnSize.new([1,2])
+s3 = CompareOnSize.new("XXX")
+p  s1 < s2 
+p s2.between?(s1, s3) 
+p s3.between?(s1, s2) 
+p [ s3, s2, s1 ].sort 
