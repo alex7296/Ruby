@@ -1,0 +1,4 @@
+(1..5).each do |number|
+puts 2 * number
+puts '--'
+end
