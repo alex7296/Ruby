@@ -1,0 +1,4 @@
+a = (0..9).to_a
+p a
+p a[2..(a.length-1)] # Explicitly use the array's length.
+p a[2..-1] # Use the index -1 trick.
