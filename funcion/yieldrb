@@ -1,0 +1,5 @@
+def do_twice
+yield
+yield
+end
+do_twice {puts "Hola"}
