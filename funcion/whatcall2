@@ -1,0 +1,11 @@
+def do_twice(what1, what2, what3)
+2.times do
+what1.call
+what2.call
+what3.call
+end
+end
+
+do_twice( lambda {print "Hola, "},
+lambda {print "querido "},
+lambda {print "amigo\n"})
