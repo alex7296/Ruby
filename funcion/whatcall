@@ -1,0 +1,5 @@
+def do_twice(what)
+what.call
+what.call
+end
+do_twice lambda {puts "Hola"}
