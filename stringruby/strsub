@@ -1,0 +1,4 @@
+str = "now is the time"
+str.sub!(/i/, "*")
+str.gsub!(/t/, "T")
+puts str
