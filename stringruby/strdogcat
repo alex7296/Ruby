@@ -1,0 +1,5 @@
+str = "Dog and Cat"
+new_str1 = str.sub(/a/, "*")
+new_str2 = str.gsub(/a/, "*")
+puts "Using sub: #{new_str1}"
+puts "Using gsub: #{new_str2}"
