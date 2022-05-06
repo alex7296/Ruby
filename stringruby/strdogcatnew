@@ -1,0 +1,3 @@
+str = "Dog and Cat"
+new_str = str.sub(/Cat/, "Gerbil")
+puts "Let's go to the #{new_str} for a pint."
