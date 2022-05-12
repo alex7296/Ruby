@@ -1,0 +1,3 @@
+a = %w(albatross dog horse)
+p a.max 
+p a.max {|a,b| a.length <=> b.length } 
