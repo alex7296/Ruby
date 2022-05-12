@@ -1,0 +1,2 @@
+p %w(rhea kea flea).sort 
+p (1..10).sort {|a,b| b <=> a} 
