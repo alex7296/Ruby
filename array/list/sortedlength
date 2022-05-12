@@ -1,0 +1,2 @@
+sorted = %w{ apple pear fig }.sort_by {|word| word.length}
+p sorted 
