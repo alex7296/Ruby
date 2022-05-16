@@ -1,0 +1,6 @@
+def varargs(arg1, *rest)
+"arg1=#{arg1}. rest=#{rest.inspect}"
+end
+p varargs("one") # => arg1=one. rest=[]
+p varargs("one", "two") # => arg1=one. rest=[two]
+p varargs "one", "two", "three" # => arg1=one. rest=[two, three]
