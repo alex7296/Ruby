@@ -1,0 +1,6 @@
+def split_apart(first, *splat, last)
+puts "First: #{first.inspect}, splat: #{splat.inspect}, " +"last: #{last.inspect}"
+end
+p split_apart(1,2)
+p split_apart(1,2,3)
+p split_apart(1,2,3,4)
