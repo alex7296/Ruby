@@ -1,0 +1,19 @@
+class X
+def foo
+"hello"
+end
+end
+class Y < X
+alias xFoo foo
+def foo
+xFoo + "y"
+end
+end
+class Z < Y
+def foo
+xFoo + "z"
+end
+end
+puts X.new.foo
+puts Y.new.foo
+puts Z.new.foo
