@@ -1,0 +1,11 @@
+def meth_three
+100.times do |num|
+square = num*num
+return num, square if square > 1000
+end
+end
+p meth_three # => [32, 1024]
+
+num, square = meth_three
+p num # => 32
+p square # => 1024
