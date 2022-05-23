@@ -1,0 +1,13 @@
+def meth_one
+"one"
+end
+meth_one # => "one"
+def meth_two(arg)
+case
+when arg > 0 then "positive"
+when arg < 0 then "negative"
+else "zero"
+end
+end
+p meth_two(23) # => "positive"
+p meth_two(0) # => "zero"
