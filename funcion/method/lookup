@@ -1,0 +1,6 @@
+def lookup(val)
+puts "Looking up #{val}"
+return true
+end
+false && lookup("cat")
+false & lookup("cat")
