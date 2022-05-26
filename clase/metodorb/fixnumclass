@@ -1,0 +1,15 @@
+class Fixnum
+alias other_s to_s
+def to_s()
+a = self + 5
+return a.other_s
+end
+end
+a = 5
+puts a.class ## prints Fixnum
+puts a ## prints 10 (adds 5 once)
+puts 0 ## prints 5 (adds 5 once)
+puts 5 ## prints 10 (adds 5 once)
+puts 10 + 0 ## prints 15 (adds 5 once)
+b = 5+5
+puts b ## puts 15 (adds 5 once)
