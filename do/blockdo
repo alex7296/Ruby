@@ -1,0 +1,4 @@
+block = Enumerator.new {|g| g.yield 1; g.yield 2; g.yield 3}
+block.each do |item|
+puts item
+end
