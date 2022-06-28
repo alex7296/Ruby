@@ -1,0 +1,8 @@
+square = "yes"
+total = 0
+[ 1, 2, 3 ].each do |val; square|
+square = val * val
+total += square
+end
+puts "Total = #{total}"
+puts "Square = #{square}"
