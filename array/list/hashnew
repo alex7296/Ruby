@@ -1,0 +1,15 @@
+h = Hash.new("Go Fish")
+h["a"] = 100
+h["b"] = 200
+p h["a"] 
+p h["c"] 
+# The following alters the single default object
+p h["c"].upcase! 
+p h["d"] 
+h.keys 
+# While this creates a new default object each time
+h = Hash.new {|hash, key| hash[key] = "Go Fish: #{key}" }
+p h["c"] 
+p h["c"].upcase! 
+p h["d"] 
+p h.keys 
