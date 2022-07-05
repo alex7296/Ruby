@@ -1,0 +1,4 @@
+h = { "a" => 100, "b" => 200 }
+h.default = "Go fish"
+p h["a"] 
+p h["z"] 
