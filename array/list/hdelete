@@ -1,0 +1,2 @@
+h = { "a" => 100, "b" => 200, "c" => 300 }
+p h.delete_if {|key, value| key >= "b" } 
