@@ -1,0 +1,4 @@
+def display_message
+puts "The quick brown fox jumps over the lazy dog."
+end
+display_message
