@@ -1,0 +1,7 @@
+open("|-") do |f|
+if f.nil?
+puts "in Child"
+else
+puts "Got: #{f.gets}"
+end
+end
